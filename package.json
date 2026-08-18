@@ -1,0 +1,27 @@
+{
+  "name": "mentee-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dashboard": "npm run dev --prefix dashboard",
+    "dashboard:build": "npm run build --prefix dashboard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaNayak12/mentee-sync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaNayak12/mentee-sync/issues"
+  },
+  "homepage": "https://github.com/AdityaNayak12/mentee-sync#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
